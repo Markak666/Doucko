@@ -10,25 +10,37 @@
 </head>
 <body>
     <!-- Navigační menu -->
-    <a href="#panel">Doučko radosti</a>
-    <ul>
-            <li>
-                <a href="#o-nas">O nás</a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0, 255, 255, 0.626);">
+    <a href="#panel" class="navbar-brand">Doučko radosti</a>
+    <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="#o-nas" class="nav-link">O nás</a>
             </li>
-            <li>
-                <a href="#info">Info</a>
-            </li>
-                <ul>
-                    <li>
-                        <a href="#cena">Cena</a>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
+                <ul class="nav-item dropdown-menu ">
+                    <li class="dropdown-item">
+                        <a href="#cena" class="dropdown-link">Cena</a>
                     </li>
-                    <li>
-                        <a href="#predmety">Předměty</a>
+                    <li class="dropdown-item">
+                        <a href="#predmety" class="dropdown-link">Předměty</a>
                     </li>
                 </ul>
-            <li>
-                <a href="#clenove">Členové</a>
             </li>
+            <li class="nav-item">
+                <a href="#clenove" class="nav-link">Členové</a>
                 <ul>
                     <li>
                         <a href="#filda">Filda</a>
@@ -40,10 +52,13 @@
                         <a href="#maky">Maky</a>
                     </li>
                 </ul>
+            </li>
             <li>
                 <a href="#kontakty">Kontakty</a>
             </li>
     </ul>
+    </div>
+    </nav>
     <!-- Panel -->
     <h1 id="panel">Vítejte na našem webu!</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum iusto minus dolor sequi repudiandae explicabo quo laudantium modi, at quae voluptatem? Quas temporibus aliquid, quibusdam harum dolores officia quo ipsum.</p>
@@ -68,9 +83,9 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error fugit adipisci sed qui repudiandae corrupti eius asperiores, obcaecati, necessitatibus, officia cumque. Deserunt quidem dolorum eum architecto consequatur possimus atque reiciendis!</p>
     <h2 id="kontakty">Kontakty</h2>
         <p>
-            <img src="Ikony/letter-g3b5a8a73a_1280.png" alt=""> douckoradosti@gmail.com <br>
+            <img src="Ikony/mail.png" height="25" alt="mail"> douckoradosti@gmail.com <br>
             <a href="">
-                <img src="Ikony/facebook-gfce05b00d_1280.png" alt=""> Doučko radosti
+                <img src="Ikony/facebook-gfce05b00d_1280.png" height="25" alt="facebook"> Doučko radosti
             </a>
                  
 
